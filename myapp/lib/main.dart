@@ -3,7 +3,10 @@ import 'package:flutter/material.dart';
 //import 'MyHomePage.dart';
 //import 'ThemeTestRoute.dart';
 //import 'UpdateTextPage.dart';
-import 'MyFadeTest.dart';
+//import 'MyFadeTest.dart';
+//import 'FutureBuilderRoute.dart';
+//import 'StreamBuilderRoute.dart';
+import 'DailogRoute.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,7 +22,10 @@ class MyApp extends StatelessWidget {
       //home: ThemeTestRoute(),
      // home:HttpTestRoute(),
      //home:UpateTextPage(),
-     home:MyFadeTest(title: 'Fade Demo'),
+     //home:MyFadeTest(title: 'Fade Demo'),
+     //home:FutureBuilderRoute(),
+     //home:StreamBuilderRoute(),
+     home:DailogRoute(),
     );
   }
 }
