@@ -6,7 +6,12 @@ import 'package:flutter/material.dart';
 //import 'MyFadeTest.dart';
 //import 'FutureBuilderRoute.dart';
 //import 'StreamBuilderRoute.dart';
-import 'DailogRoute.dart';
+//import 'DailogRoute.dart';
+//import 'PointerEventRoute.dart';
+//import 'Animate/ScaleAnimationRoute.dart';
+//import 'Animate/HeroAnimationRoute.dart';
+//import '自定义组件/GradientButtonRoute.dart';
+import '自定义组件/CustomPaintRoute.dart';
 
 void main() => runApp(MyApp());
 
@@ -25,7 +30,12 @@ class MyApp extends StatelessWidget {
      //home:MyFadeTest(title: 'Fade Demo'),
      //home:FutureBuilderRoute(),
      //home:StreamBuilderRoute(),
-     home:DailogRoute(),
+     //home:DailogRoute(),
+     //home:PointerEventRoute(),
+     //home:ScaleAnimationRoute(),
+     //home:HeroAnimationRoute(),
+    // home:GradientButtonRoute(),
+    home:CustomPaintRoute(),
     );
   }
 }
