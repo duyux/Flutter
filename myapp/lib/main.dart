@@ -11,7 +11,8 @@ import 'package:flutter/material.dart';
 //import 'Animate/ScaleAnimationRoute.dart';
 //import 'Animate/HeroAnimationRoute.dart';
 //import '自定义组件/GradientButtonRoute.dart';
-import '自定义组件/CustomPaintRoute.dart';
+//import '自定义组件/CustomPaintRoute.dart';
+import 'WebSocketRoute.dart';
 
 void main() => runApp(MyApp());
 
@@ -35,7 +36,8 @@ class MyApp extends StatelessWidget {
      //home:ScaleAnimationRoute(),
      //home:HeroAnimationRoute(),
     // home:GradientButtonRoute(),
-    home:CustomPaintRoute(),
+   // home:CustomPaintRoute(),
+     home:WebSocketRoute(),
     );
   }
 }
